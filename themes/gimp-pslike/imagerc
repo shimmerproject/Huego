@@ -48,6 +48,13 @@ style "gimp-icons"
                 { "images/toolbox/crop-16.png", *, *, "gtk-menu" },
                 { "images/toolbox/crop-16.png", *, *, *            }
         }
+
+	# Blur
+        stock["gimp-tool-blur"] =
+        {
+                { "images/toolbox/blur-18.png", *, *, "gtk-menu" },
+                { "images/toolbox/blur-18.png", *, *, *            }
+        }
 }
 
 class "GtkWidget" style "gimp-icons"
