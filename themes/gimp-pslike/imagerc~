@@ -1,0 +1,33 @@
+style "gimp-icons"
+{
+	# Rectangle select / Rectangular marquee
+	stock["gimp-tool-rect-select"] =
+	{
+		{ "images/toolbox/rectangle-select-18.png", *, *, "gtk-menu" },
+		{ "images/toolbox/rectangle-select-18.png", *, *, * }
+	}
+
+	# Move
+	stock["gimp-tool-move"] =
+	{
+		{ "images/toolbox/move-18.png", *, *, "gtk-menu" },
+		{ "images/toolbox/move-18.png", *, *, * }
+	}
+
+	# Free select / Lasso
+	stock["gimp-tool-free-select"] =
+	{
+		{ "images/toolbox/free-select-18.png", *, *, "gtk-menu" },
+		{ "images/toolbox/free-select-18.png", *, *, * }
+	}
+
+	# Fuzzy select / Magic wand
+	stock["gimp-tool-fuzzy-select"] =
+	{
+		{ "images/toolbox/fuzzy-select-18.png", *, *, "gtk-menu" },
+		{ "images/toolbox/fuzzy-select-18.png", *, *, * }
+	}
+
+}
+
+class "GtkWidget" style "gimp-icons"
