@@ -44,7 +44,7 @@ style "gimp-default-style"
   GtkOptionMenu::indicator-size    = { 5, 11 }
   GtkOptionMenu::indicator-spacing = { 4, 3, 1, 1 }
 
-  GtkPaned::handle-size             = 5
+  GtkPaned::handle-size             = 3
   GimpDockWindow::default-height    = 240
   GimpDock::font-scale              = 0.8333
   GimpMenuDock::minimal-width       = 200
@@ -69,6 +69,19 @@ style "gimp-default-style"
 }
 
 class "GtkWidget" style "gimp-default-style"
+
+
+style "gimp-toolbox"
+{
+  xthickness		= 1
+  ythickness		= 1
+
+  GtkButton::inner-border        = { 0, 0, 0, 0 }
+  GtkButton::focus-line_width = 0
+  GtkButton::focus-padding    = 0
+}
+
+widget "*GimpToolPalette*" style "gimp-toolbox"
 
 
 style "gimp-tool-dialog-style" = "gimp-default-style"
