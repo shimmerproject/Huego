@@ -35,6 +35,19 @@ style "gimp-icons"
 		{ "images/toolbox/paintbrush-18.png", *, *, * }
 	}
 
+	# Text
+	stock["gimp-tool-text"] =
+	{
+		{ "images/toolbox/text-16.png", *, *, "gtk-menu" },
+		{ "images/toolbox/text-16.png", *, *, * }
+	}
+
+	# Crop
+        stock["gimp-tool-crop"] =
+        {
+                { "images/toolbox/crop-16.png", *, *, "gtk-menu" },
+                { "images/toolbox/crop-16.png", *, *, *            }
+        }
 }
 
 class "GtkWidget" style "gimp-icons"
