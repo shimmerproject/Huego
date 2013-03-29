@@ -55,6 +55,13 @@ style "gimp-icons"
                 { "images/toolbox/blur-18.png", *, *, "gtk-menu" },
                 { "images/toolbox/blur-18.png", *, *, *            }
         }
+
+	# Measure
+        stock["gimp-tool-measure"] =
+        {
+                { "images/toolbox/measure-16.png", *, *, "gtk-menu" },
+                { "images/toolbox/measure-16.png", *, *, *            }
+        }
 }
 
 class "GtkWidget" style "gimp-icons"
